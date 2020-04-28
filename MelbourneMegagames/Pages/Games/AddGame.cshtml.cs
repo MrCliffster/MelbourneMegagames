@@ -12,9 +12,9 @@ namespace MelbourneMegagames.Pages.Games
 {
     public class AddGameModel : PageModel
     {
-        private readonly MelbourneMegagames.Data.MelbourneMegagamesContext _context;
+        private readonly MelbourneMegagamesContext _context;
 
-        public AddGameModel(MelbourneMegagames.Data.MelbourneMegagamesContext context)
+        public AddGameModel(MelbourneMegagamesContext context)
         {
             _context = context;
         }
@@ -39,7 +39,7 @@ namespace MelbourneMegagames.Pages.Games
             _context.Games.Add(Game);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Games/OurGames");
         }
     }
 }
