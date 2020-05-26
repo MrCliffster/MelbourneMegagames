@@ -6,7 +6,9 @@
 
 <h1>Our games</h1>
 
-@foreach (var game in Model.games) { 
+@foreach (var game in Model.Games) { 
     <h2>@Html.DisplayFor(modelItem =>  game.Name)</h2>
+    <h4>@Html.DisplayNameFor(modelItem => game.GameDate): @Html.DisplayFor(modelItem => game.GameDate)</h4>
+    <p>@Html.DisplayFor(modelItem => game.GameDescription)</p>
 }
 
