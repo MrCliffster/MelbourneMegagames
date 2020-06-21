@@ -5,8 +5,27 @@
 }
 
 <h1>Our games</h1>
-
-@foreach (var game in Model.games) { 
-    <h2>@Html.DisplayFor(modelItem =>  game.Name)</h2>
-}
+<table>
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Games[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Games[0].GameDate)
+            </th>
+        </tr>
+    </thead>
+    @foreach (var game in Model.Games)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => game.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => game.GameDate)
+            </td>
+        </tr>
+    }
+</table>
 

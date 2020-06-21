@@ -12,7 +12,7 @@ namespace MelbourneMegagames.Pages.Games
 {
     public class OurGamesModel : PageModel
     {
-        private MelbourneMegagamesContext _context;
+        private readonly MelbourneMegagamesContext _context;
 
         public OurGamesModel(MelbourneMegagamesContext context)
         {
@@ -20,10 +20,10 @@ namespace MelbourneMegagames.Pages.Games
         }
 
         [BindProperty]
-        public List<Game> games { get; set; }
+        public List<Game> Games { get; set; }
         public async void OnGetAsync()
         {
-            games = await _context.Games.ToListAsync<Game>();
+            Games = await _context.Games.ToListAsync<Game>();
         }
     }
 }
