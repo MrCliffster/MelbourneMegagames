@@ -28,7 +28,7 @@ namespace MelbourneMegagames
             services.AddRazorPages();
 
             services.AddDbContext<MelbourneMegagamesContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("MelbourneMegagamesContext")));
+                    options.UseSqlite(Configuration.GetConnectionString("MelbourneMegagamesContextSQLite")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
