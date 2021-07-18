@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using MelbourneMegagames.Data;
+﻿using MelbourneMegagames.Data;
 using MelbourneMegagames.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace MelbourneMegagames.Pages.Games
 {
@@ -21,9 +19,11 @@ namespace MelbourneMegagames.Pages.Games
 
         [BindProperty]
         public List<Game> Games { get; set; }
-        public async void OnGetAsync()
+
+        public async Task<IActionResult> OnGetAsync()
         {
             Games = await _context.Games.ToListAsync<Game>();
+            return Page();
         }
     }
 }

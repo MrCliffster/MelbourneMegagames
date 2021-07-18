@@ -5,27 +5,14 @@
 }
 
 <h1>Our games</h1>
-<table>
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Games[0].Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Games[0].GameDate)
-            </th>
-        </tr>
-    </thead>
-    @foreach (var game in Model.Games)
+
+@foreach (var game in Model.Games)
+{
+    if (game.IsPublished)
     {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => game.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => game.GameDate)
-            </td>
-        </tr>
+        <h2>@Html.DisplayFor(modelItem => game.Name)</h2>
+        <h4>@Html.DisplayNameFor(modelItem => game.GameDate): @Html.DisplayFor(modelItem => game.GameDate)</h4>
+        <p>@Html.DisplayFor(modelItem => game.GameDescription)</p>
     }
-</table>
+}
 

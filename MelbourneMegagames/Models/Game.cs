@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
-using System.Linq;
-using System.Reflection.Metadata;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace MelbourneMegagames.Models
 {
@@ -15,10 +12,10 @@ namespace MelbourneMegagames.Models
     public class Game
     {
         [Key]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         [Required]
         public string Name { get; set; } = string.Empty;
-        [Required, Display(Name = "Date of game")]
+        [Required, Display(Name = "Date of game"), DisplayFormat(DataFormatString = "{0:dd MMM yyyy}")]
         public DateTime GameDate { get; set; }
         [Required, Display(Name = "About the game")]
         public string GameDescription { get; set; }
