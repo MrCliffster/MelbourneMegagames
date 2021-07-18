@@ -5,15 +5,10 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Melbourne Megagames</title>
-        <meta name="description" content="Melbourne Megagames Website" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          We are Melbourne Megagames
         </h1>
 
         <p className={styles.description}>
