@@ -11,10 +11,7 @@ export default function Home() {
           We are Melbourne Megagames
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <p className={styles.description}>We design and run large scale, immersive social games, which combine aspects of negotiation, politics, strategy, and role playing. Our goal is to deliver a diverse range of high-quality games. Our events usually run over the course of a single day, with up to 100 participants.</p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
