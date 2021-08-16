@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -14,15 +15,19 @@ export default function Home() {
         <p className={styles.description}>We design and run large scale, immersive social games, which combine aspects of negotiation, politics, strategy, and role playing. Our goal is to deliver a diverse range of high-quality games. Our events usually run over the course of a single day, with up to 100 participants.</p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <Link href="/contact-us">
+            <a className={styles.card}>
+              <h2>Contact us &rarr;</h2>
+              <p>Get in touch with Melbourne Megagames here.</p>
+            </a>
+          </Link>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <Link href="/faqs">
+            <a className={styles.card}>
+              <h2>FAQs &rarr;</h2>
+              <p>Find answers to a bunch of your questions here!</p>
+            </a>
+          </Link>
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"

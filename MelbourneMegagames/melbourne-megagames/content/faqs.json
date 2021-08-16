@@ -1,0 +1,52 @@
+[
+    {
+        "key": 0,
+        "question": "What is a megagame?",
+        "answer": "What it says on the tin – big games (like, really big). A megagame blends aspects of role playing, strategy, and board game style mechanics, running usually over the course of a day, and can be attended by anywhere between 30 – 200 players."
+    },
+    {
+        "key": 1,
+        "question": "Who can play a megagame?",
+        "answer": "Anyone! Most of our games are appropriate for people under 18, and we encourage anyone who wants to get involved to reach out to us."
+    },
+    {
+        "key": 2,
+        "question": "When is your next game?",
+        "answer": "Unfortunately we currently have no scheduled games due to the Covid-19 pandemic lockdown in Victoria"
+    },
+    {
+        "key": 3,
+        "question": "I missed out on a game, will you run the same one again?",
+        "answer": "We do our best to accommodate the maximum number of players at our games, and if there’s enough interest, we’ll run the same game multiple times in succession."
+    },
+    {
+        "key": 4,
+        "question": "How can I stay up to date on game announcements?",
+        "answer": "Follow us on Facebook, or sign up to our mailing list by emailing melbournemegagames@gmail.com."
+    },
+    {
+        "key": 5,
+        "question": "Do I have to have a group of friends to play a megagame?",
+        "answer": "Not at all, some of our games are geared towards teams, but we always do our best to accommodate everyone who signs up."
+    },
+    {
+        "key": 6,
+        "question": "What information can I expect about the game?",
+        "answer": "When you sign up to a game, you’ll be emailed a copy of the rules, and any other resources you need, a week before the game runs."
+    },
+    {
+        "key": 7,
+        "question": "I don’t see my accessibility needs catered for, but I still want to play, what should I do?",
+        "answer": "Let us know. We’re passionate about bringing megagames to as wide of an audience as possible, and we’re always willing to work on solutions."
+    },
+    {
+        "key": 8,
+        "question": "How can I get involved in helping run games?",
+        "answer": "Talking to us at a game is usually the best way of making us aware of your interest."
+    },
+    {
+        "key": 9,
+        "question": "I want to design a game, can you help?",
+        "answer": "Yes we can! Check out our Resources page for more information for prospective designers."
+    }
+]
