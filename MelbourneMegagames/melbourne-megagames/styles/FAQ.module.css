@@ -1,0 +1,21 @@
+.questionbutton {
+    border-style: none;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.questionbutton:hover{
+    color: gray;
+}
+
+.collapsible {
+    padding: 0 18px;
+    transition: .5s all ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+}
+.collapsible.expanded {
+    height: auto;
+    max-height: inherit;
+}
