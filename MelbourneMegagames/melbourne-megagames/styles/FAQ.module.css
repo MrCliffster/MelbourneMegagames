@@ -1,12 +1,17 @@
-.questionbutton {
+.questionButton {
     border-style: none;
     margin: 0 0 10px 0;
     padding: 10px;
-    text-align: center;
+    text-align: left;
+    width: 100%;
 }
 
-.questionbutton:hover{
+.questionButton:hover{
     color: gray;
+}
+
+.faqChevron {
+    float: right;
 }
 
 .collapsible {
