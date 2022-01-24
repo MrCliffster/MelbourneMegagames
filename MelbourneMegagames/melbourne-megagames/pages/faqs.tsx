@@ -12,7 +12,7 @@ export default function Faqs({ faqs }: { faqs: FAQProps[] }) {
                     Frequently Asked Questions
                 </h1>
 
-                <p className={styles.description}>These are answers to frequently asked questions of us, so check out if we&apos;ve answered something you have been dying to ask. Anything you can&apos;t find the answer to? Contact Us</p>
+                <p className={styles.description}>These are answers to frequently asked questions of us, so check out if we&apos;ve answered something you have been dying to ask. Anything you can&apos;t find the answer to? Contact us here.</p>
 
                 <div>
                     {faqs.map(element => {
