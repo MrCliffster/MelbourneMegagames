@@ -12,7 +12,9 @@ export default function Navbar() {
                         <a>
                             <Image
                                 alt="Melbourne Megagames logo"
-                                src={logo} />
+                                src={logo}
+                                height={60}
+                                width={40} />
                         </a>
                     </Link>
                 </section>
