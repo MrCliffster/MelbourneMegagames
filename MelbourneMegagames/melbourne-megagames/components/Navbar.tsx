@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from '../public/logo.png'
+import logo from '../public/MelbourneMegagamesLogo.svg'
 import styles from "../styles/Navbar.module.css"
 
 export default function Navbar() {
@@ -9,14 +9,15 @@ export default function Navbar() {
             <div>
                 <section className={styles.HeaderLogo}>
                     <Link href="/">
-                        <a>
-                            <Image
-                                alt="Melbourne Megagames logo"
-                                src={logo}
-                                height={60}
-                                width={40} />
-                        </a>
+                        <Image
+                            alt="Melbourne Megagames logo"
+                            src={logo}
+                            height={201}
+                            width={164}
+                        />
                     </Link>
+                    <Link href={"/about/faqs"}>FAQs</Link>
+                    <Link href={"/about/melbournemegagames"}>Melbourne Megagames</Link>
                 </section>
             </div>
         </nav>

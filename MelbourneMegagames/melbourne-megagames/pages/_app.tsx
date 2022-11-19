@@ -6,6 +6,7 @@ import { faChevronLeft, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faChevronDown, faChevronLeft)
 
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Layout>

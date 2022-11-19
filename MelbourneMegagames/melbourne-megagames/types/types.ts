@@ -3,3 +3,9 @@ export type FAQProps = {
     question: string;
     answer: string;
 }
+
+export type TeamMemberProps = {
+    description: string;
+    photoSrc: string;
+    isImageLeft: boolean;
+}

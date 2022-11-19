@@ -1,7 +1,8 @@
 .Navbar {
-    background-color: gray;
+    background-color: black;
     color: white;
     width: 100%;
+    height: fit-content;
 }
 
 .HeaderLogo {
