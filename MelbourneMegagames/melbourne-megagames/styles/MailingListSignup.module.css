@@ -1,0 +1,22 @@
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signupForm input {
+    border-radius: 20px;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 20px;
+    height: 56px;
+}
+
+.signupForm button {
+    background-color: #d5e9ef;
+    border-radius: 20px;
+    font-size: 28px;
+    line-height: 32px;
+    height: 78px;
+    width: 261px;
+}

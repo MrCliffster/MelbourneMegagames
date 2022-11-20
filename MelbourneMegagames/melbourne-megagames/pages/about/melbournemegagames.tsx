@@ -14,10 +14,10 @@ export default function MelbourneMegagames() {
 
                 <div>
                     <h2>Core Team</h2>
-                    <TeamMember description={'Nellie is a person who founded and directs Melbourne Megagames with Tristan'} photoSrc={''} isImageLeft={true} />
-                    <TeamMember description={'Tristan is a person who founded and directs Melbourne Megagames with Nellie'} photoSrc={''} isImageLeft={false} />
-                    <TeamMember description={'Iolande'} photoSrc={''} isImageLeft={true} />
-                    <TeamMember description={'Leon'} photoSrc={''} isImageLeft={false} />
+                    <TeamMember description={'Nellie is a person who founded and directs Melbourne Megagames with Tristan'} photoSrc={'/../public/teamImages/nellie.png'} isImageLeft={true} />
+                    <TeamMember description={'Tristan is a person who founded and directs Melbourne Megagames with Nellie'} photoSrc={'/../public/teamImages/tristan.png'} isImageLeft={false} />
+                    <TeamMember description={'Iolande'} photoSrc={'/../public/teamImages/iolande.png'} isImageLeft={true} />
+                    <TeamMember description={'Leon'} photoSrc={'/../public/teamImages/leon.png'} isImageLeft={false} />
                 </div>
             </main>
         </div>

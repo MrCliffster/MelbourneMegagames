@@ -1,0 +1,15 @@
+.teamImage {
+    border-radius: 50%;
+}
+
+.teamDesc {
+    font-size: 32px;    
+    width: 587px;
+    margin: 80px
+}
+
+.teamMember {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
