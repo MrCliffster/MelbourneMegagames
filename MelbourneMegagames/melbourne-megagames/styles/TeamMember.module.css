@@ -12,4 +12,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Century Gothic';
+    line-height: 39px;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 58px 0 58px 0;
 }

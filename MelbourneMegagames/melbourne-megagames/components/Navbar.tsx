@@ -6,7 +6,6 @@ import styles from "../styles/Navbar.module.css"
 export default function Navbar() {
     return (
         <nav className={styles.Navbar}>
-            <div>
                 <section className={styles.HeaderLogo}>
                     <Link href="/">
                         <Image
@@ -16,10 +15,9 @@ export default function Navbar() {
                             width={164}
                         />
                     </Link>
-                    <Link href={"/about/faqs"}>FAQs</Link>
-                    <Link href={"/about/melbournemegagames"}>Melbourne Megagames</Link>
                 </section>
-            </div>
+                <Link href={"/about/faqs"}>FAQs</Link>
+                <Link href={"/about/melbournemegagames"}>Melbourne Megagames</Link>
         </nav>
     )
 }
