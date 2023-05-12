@@ -10,7 +10,7 @@ export default function MegagameCommunities() {
                     Megagame Communities
                 </h1>
 
-                <p className={styles.description}>Community is a huge part of what we do here, and we wouldn't be where we are without the support and generosity shown to us by some of the people and groups on this page.</p>
+                <p className={styles.description}>Community is a huge part of what we do here, and we wouldn&apos;t be where we are without the support and generosity shown to us by some of the people and groups on this page.</p>
 
                 <div>
                     <h2>Australian Megagaming Groups</h2>

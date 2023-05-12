@@ -12,7 +12,7 @@ export default function MelbourneMegagames() {
 
                 <div className={styles.description}>
                     <p >Welcome to Melbourne Megagames! We design and run large scale, immersive social games, which combine aspects of negotiation, politics, strategy, and role-playing.</p>
-                    <p>What's a megagame you ask? It's uh, just a really big game…</p>
+                    <p>What&apos;s a megagame you ask? It&apos;s uh, just a really big game…</p>
                     <p>…that blends aspects of boardgames, LARPs, wargaming, & role-play. Think of megagames as interactive stories, where you can live out your dream of being a 17th century pirate… or nuke the moon to prevent an alien invasion… or accidentally kill Hitler with the holy grail! There are no limits to the chaos and joy that a megagame brings.</p>
                     <p>Founded in 2019, we aim to make megagames fun and accessible. Our events usually run over the course of a single day, with up to 100 participants.</p>
                 </div>

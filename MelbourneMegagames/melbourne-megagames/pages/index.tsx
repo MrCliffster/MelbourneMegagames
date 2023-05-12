@@ -29,7 +29,7 @@ export default function Home() {
             <p>Get in touch with Melbourne Megagames here.</p>
           </Link>
 
-          <Link href="/faqs" className={styles.card}>
+          <Link href="/about/faqs" className={styles.card}>
             <h2>FAQs &rarr;</h2>
             <p>Find answers to a bunch of your questions here!</p>
           </Link>
